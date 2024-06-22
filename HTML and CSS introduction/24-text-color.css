@@ -1,0 +1,15 @@
+h1{
+    color: chocolate;
+}
+
+p{
+    color: cornflowerblue;
+}
+
+#b{
+    color: darkmagenta;
+}
+
+p>strong{
+    color: aquamarine;
+}
