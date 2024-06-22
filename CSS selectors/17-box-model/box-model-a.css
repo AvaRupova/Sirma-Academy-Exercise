@@ -1,0 +1,8 @@
+.box {
+    /* margin, border, padding, and content area */
+    margin: 20px;
+    border: 1px solid #000;
+    padding: 18px;
+    width: 300px;
+    background-color: aquamarine;
+}

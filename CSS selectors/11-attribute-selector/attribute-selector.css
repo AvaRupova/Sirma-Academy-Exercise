@@ -1,0 +1,9 @@
+input[type="text"]{
+    color: blue;
+    font-style: italic;
+}
+
+input[type="submit"]{
+    color: chartreuse;
+    font-size: larger;
+}

@@ -1,0 +1,14 @@
+.block {
+background-color: blue;
+display: block;
+}
+
+.inline {
+background-color: aqua;
+display: inline;
+}
+
+.inline-block {
+background-color: #ec2929;
+display: inline-block;
+}
