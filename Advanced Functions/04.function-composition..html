@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        function double(num){
+
+            return num * 2
+        }
+
+        function square(num){
+            return Math.pow(num, 2)
+        }
+
+        function compose(d,s){
+            return function(x){
+                return s(d(x))
+            }
+        }
+        const doubleThenSquare = compose(double, square);
+
+        console.log(doubleThenSquare(3)); // Output: 36
+
+    </script>
+</body>
+</html>
